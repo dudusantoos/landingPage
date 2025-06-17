@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#tituloSuperior {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#textoMenuSuperior {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#menuSuperior {
+    background-image: url(/images/headBackground.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding-bottom: 100px;
+}
+
+#menuInformacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 0px 100px;
+}
+
+.icon {
+    margin: 50px 0px 50px 100px;
+    padding: 20px;
+}
+
+.textoInformativo {
+    display: flex;
+    align-items: center;
+}
+
+#secaoVideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px 0px;
+    justify-content: center;
+}
+
+#textoVideo {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#tituloVideo {
+    color: #247BA0;
+}
+
+#secaoCards {
+    background-color: #247BA0;
+    padding: 50px 0px;
+}
+
+#tituloCards {
+    color: white;
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 50px;
+    justify-content: center;
+}
+
+.card {
+    margin: 0px 30px;
+}
+
+#setaEsquerda {
+    display: none;
+}
+
+#bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: scale(0.75);
+    transition-duration: 0.25s;
+}
+
+#formulario {
+    text-align: center;
+    padding: 50px;
+}
+
+#tituloFormulario {
+    margin-bottom: 40px;
+}
+
+#form {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    color: #383838;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 10px rgba(56, 56, 56, 0.15)
+}
+
+button{
+    width: 300px;
+    height: 30px;
+    background-color: #247BA0;
+    color: #EAECE5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8px;
+    box-shadow: 0px 10px 10px rgba(56, 56, 56, 0.3)
+}
+
+button:hover {
+    transform: scale(1.05);
+}
